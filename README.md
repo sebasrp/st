@@ -10,7 +10,7 @@ This repository is just a fork of [st][https://st.suckless.org/] with some patch
 
 In order to build st you need the Xlib header files.
 
-##Installation
+## Installation
 
 Edit `config.mk` to match your local setup (st is installed into
 the `/usr/local` namespace by default).
@@ -32,6 +32,13 @@ tic -sx st.info
 ```
 
 See the man page for additional details.
+
+## Updating from upstream suckless st
+
+In order to pull the latest changes from upstream st:
+
+1. Set upstream repository: `git remote add upstream https://git.suckless.org/st`
+1. Pull latest changes: `git pull upstream master`
 
 ## Credits
 
